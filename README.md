@@ -1,7 +1,5 @@
 <h1 align="center">Hi 👋, I'm Debabrata Bhowmick Onu</h1>
-<h3 align="center">WordPress Developer | WordPress Expert | Divi Expert | WooCommerce</h3>
-
-<h3 align="left">Connect with me:</h3>
+<h3 align="center">WordPress Developer| Divi Expert | WooCommerce</h3>
 <p align="left">
 </p>
 
