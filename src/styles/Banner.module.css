@@ -38,14 +38,18 @@
     cursor: pointer;
     animation: bounce 2s infinite;
 }
-/* @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        transform: translateY(0);
+@media (max-width: 768px) {
+    .banner_contener{
+        background-image: unset;    
+        padding-top: 100px;
     }
-    40% {
-        transform: translateY(-15px); 
+    .scroll_down{
+        display: none;
     }
-    60% {
-        transform: translateY(-7px); 
+    .banner_tex{
+        font-size: 35px;
+        line-height: 40px;  
+        padding-left: 0;
     }
-} */
+  
+  }

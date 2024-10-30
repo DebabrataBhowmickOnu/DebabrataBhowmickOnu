@@ -63,3 +63,11 @@ body{
   font-weight: 900;
   font-style: normal;
 }
+
+@media (max-width: 768px) {
+  .main_container{
+    max-width: 100%;
+    padding: 0 20px;
+  }
+ 
+}
