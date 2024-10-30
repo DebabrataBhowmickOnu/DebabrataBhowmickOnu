@@ -1,10 +1,11 @@
 import React from "react"
 import RootLayout from "../component/Layout/RootLayout";
+import Banner from "@/component/UI/Banner";
 
 const HomePage = (props) => {
   return (
     <div>
-      <h1>This is Home page</h1>
+      <Banner/>
     </div>
   )
 };
