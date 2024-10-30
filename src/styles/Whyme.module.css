@@ -1,0 +1,51 @@
+.whyme_container{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    column-gap: 100px;
+}
+.Whyme_content{
+    border: 1px solid rgba(10, 232, 94, 1);
+    border-radius: 37px;
+    box-shadow: 2px 4px 17.8px 1px rgba(154, 217, 188, 0.07);
+    padding: 30px;
+}
+.whyme_container h2{
+    font-size: 32px;
+    line-height: 72px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    padding-left: 60px;
+}
+.whyme_container h2::before{
+    content: "01";
+    position: absolute;
+    left: 0;
+    color: rgba(255, 255, 255, 0.37);
+    font-weight: 400;
+}
+.whyme_container p{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    padding-left: 60px;
+}
+.frist_content::before{
+    content: "02";
+    position: absolute;
+    left: 0;
+    color: rgba(255, 255, 255, 0.37);
+    font-size: 32px;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .whyme_container{
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 30px;
+    }
+   
+  }

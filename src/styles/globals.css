@@ -13,6 +13,9 @@
     --foreground: #ededed;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
 body{
   background: #1C1C21;
   font-family: 'Sarpanch', 'Arial', sans-serif;
@@ -63,11 +66,22 @@ body{
   font-weight: 900;
   font-style: normal;
 }
-
+.Work_company{
+  padding-top: 150px;
+  padding-bottom: 138px;
+}
+.why_me{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 @media (max-width: 768px) {
   .main_container{
     max-width: 100%;
     padding: 0 20px;
   }
+  .Work_company {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
  
 }

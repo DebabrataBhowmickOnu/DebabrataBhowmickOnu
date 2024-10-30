@@ -64,7 +64,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <ul>
-                        <li onClick={closeMenu}><Link href="#">Why Me?</Link></li>
+                        <li onClick={closeMenu}><Link href="#Why_Me">Why Me?</Link></li>
                         <li onClick={closeMenu}><Link href="#">Skills</Link></li>
                         <li onClick={closeMenu}><Link href="#">Portfolio</Link></li>
                         <li onClick={closeMenu}><Link href="#">Testimonial</Link></li>
