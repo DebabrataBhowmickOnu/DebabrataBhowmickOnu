@@ -1,7 +1,8 @@
 import React from "react"
 import styles from "@/styles/Navbar.module.css";
 import Image from "next/image";
-import logo from '../../assets/images/Logo.png'
+import logo from '../../assets/images/Logo.png';
+import arrow from '../../assets/images/Arrow_icon.png';
 import Link from "next/link";
 const Navbar = () => {
     return (
@@ -22,8 +23,7 @@ const Navbar = () => {
                     <li><Link href="#">Skills</Link></li>
                     <li><Link href="#">Portfolio</Link></li>
                     <li><Link href="#">Testimonial</Link></li>
-                    <button><Link href="#">GET IN TOUCH</Link></button>
-                    
+                    <button><Link href="#">GET IN TOUCH </Link></button>
                 </ul>
             </div>
 

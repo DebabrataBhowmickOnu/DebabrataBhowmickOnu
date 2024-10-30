@@ -12,15 +12,35 @@
 }
 
 .nav_item ul li {
-    margin-left: 20px;
+    margin-left: 30px;
     color: rgba(255, 255, 255, 1);
     font-size: 18px;
     font-weight: 700;
+    transition: all 0.3s ease-in-out;
+
+}
+.nav_item ul li:hover{
+    color:rgb(10, 232, 94);
 
 }
 .nav_item button{
     color: rgba(255, 255, 255, 1);
-    margin-left: 20px;
+    margin-left: 30px;
     font-size: 16px;
     font-weight: 700;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    padding:10px 20px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    padding-right: 82px;
+}
+.nav_item button::before{
+    content: url('../assets/images/Arrow_icon.png');
+    position: absolute;
+    right: 24px;
+    top: 9px;
+}
+.nav_item button:hover{
+    color:rgb(10, 232, 94);
 }
