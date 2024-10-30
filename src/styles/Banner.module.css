@@ -42,6 +42,7 @@
     .banner_contener{
         background-image: unset;    
         padding-top: 100px;
+        height: unset;
     }
     .scroll_down{
         display: none;
