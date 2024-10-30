@@ -1,0 +1,22 @@
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_item ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_item ul li {
+    margin-left: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 900;
+
+}
+.nav_item button{
+    color: rgba(255, 255, 255, 1);
+    margin-left: 20px;
+}

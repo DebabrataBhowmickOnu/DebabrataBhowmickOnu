@@ -13,9 +13,53 @@
     --foreground: #ededed;
   }
 }
+body{
+  background: #1C1C21;
+  font-family: 'Sarpanch', 'Arial', sans-serif;
+}
+.main_container{
+  max-width: 1430px;
+  margin: auto;
+}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: 'Sarpanch';
+  src: url('../pages/fonts/Sarpanch-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sarpanch';
+  src: url('../pages/fonts/Sarpanch-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sarpanch';
+  src: url('../pages/fonts/Sarpanch-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sarpanch';
+  src: url('../pages/fonts/Sarpanch-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sarpanch';
+  src: url('../pages/fonts/Sarpanch-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sarpanch';
+  src: url('../pages/fonts/Sarpanch-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
 }
