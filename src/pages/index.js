@@ -4,6 +4,7 @@ import Banner from "@/component/UI/Banner";
 import Work_company from "@/component/UI/Work_company";
 import Whyme from "@/component/UI/Why_me";
 import Experience from "@/component/UI/Experience";
+import Skills from "@/component/UI/Skills";
 
 const HomePage = (props) => {
   return (
@@ -17,6 +18,9 @@ const HomePage = (props) => {
       </div>
       <div className="experience">
         <Experience/>
+      </div>
+      <div className="Skills">
+        <Skills/>
       </div>
     </div>
   )

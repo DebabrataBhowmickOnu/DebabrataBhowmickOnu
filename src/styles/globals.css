@@ -78,6 +78,10 @@ body{
   padding-top: 80px;
   padding-bottom: 50px;
 }
+.Skills{
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
 /* @media screen and (max-width:1500px) {
   .main_container{
     padding: 0 100px;
@@ -93,6 +97,10 @@ body{
     padding-bottom: 50px;
 }
 .experience{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.Skills{
   padding-top: 50px;
   padding-bottom: 50px;
 }
