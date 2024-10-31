@@ -7,6 +7,7 @@ import Experience from "@/component/UI/Experience";
 import Skills from "@/component/UI/Skills";
 import Projects from "@/component/UI/Projects";
 import Testimonial from "@/component/UI/Testimonial";
+import BookCall from "@/component/UI/Book_call";
 
 
 const HomePage = (props) => {
@@ -30,6 +31,9 @@ const HomePage = (props) => {
       </div>
       <div className="Projects">
         <Testimonial/>
+      </div>
+      <div className="BookCall">
+        <BookCall/>
       </div>
     </div>
   )

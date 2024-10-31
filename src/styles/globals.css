@@ -86,7 +86,10 @@ body{
   padding-top: 80px;
   padding-bottom: 50px;
 }
-
+.BookCall{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 @media screen and (max-width:1500px) {
   .main_container{
     max-width: 100%;
