@@ -1,0 +1,82 @@
+.experience_container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    column-gap: 100px;
+}
+.experience_content{
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    border-radius: 37px;
+    padding: 20px 35px;
+    color: rgba(255, 255, 255, 1);
+}
+.experience_content h2{
+    font-size: 32px;
+    line-height: 72px;
+    font-weight: 700;
+    position: relative;
+    padding-left: 60px;
+}
+.experience_content h2::before{
+    content: "01";
+    position: absolute;
+    left: 0;
+    color: rgba(255, 255, 255, 0.37);
+    font-size: 32px;
+    font-weight: 400;
+}
+.experience_content span{
+    color: rgba(10, 232, 94, 1);
+}
+.experience_content p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: rgba(189, 189, 189, 1);
+}
+.experience_content h3{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.experience2{
+    margin-top: 20px;
+    padding-bottom: 15px ;
+}
+.experience_image{
+    display: flex;
+    align-items: center;
+}
+.experience1 h3,
+.experience1 p{
+    position: relative;
+    padding-left: 60px;
+}
+.experience1 h3::before{
+    content: "02";
+    position: absolute;
+    left: 0;
+    color: rgba(255, 255, 255, 0.37);
+    font-size: 32px;
+    font-weight: 400;
+}
+.experience2 h3,
+.experience2 p{
+    position: relative;
+    padding-left: 60px;
+}
+.experience2 h3::before{
+    content: "03";
+    position: absolute;
+    left: 0;
+    color: rgba(255, 255, 255, 0.37);
+    font-size: 32px;
+    font-weight: 400;
+}
+@media screen and (max-width:767px) {
+    .experience_container{
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 30px;
+    }
+}

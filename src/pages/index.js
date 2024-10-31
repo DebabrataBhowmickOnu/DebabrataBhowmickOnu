@@ -3,6 +3,7 @@ import RootLayout from "../component/Layout/RootLayout";
 import Banner from "@/component/UI/Banner";
 import Work_company from "@/component/UI/Work_company";
 import Whyme from "@/component/UI/Why_me";
+import Experience from "@/component/UI/Experience";
 
 const HomePage = (props) => {
   return (
@@ -13,6 +14,9 @@ const HomePage = (props) => {
       </div>
       <div className="why_me">
         <Whyme/>
+      </div>
+      <div className="experience">
+        <Experience/>
       </div>
     </div>
   )
