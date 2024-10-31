@@ -82,11 +82,17 @@ body{
   padding-top: 80px;
   padding-bottom: 50px;
 }
-/* @media screen and (max-width:1500px) {
+.Projects{
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width:1500px) {
   .main_container{
-    padding: 0 100px;
+    max-width: 100%;
+    padding: 0 50px;
   }
-} */
+}
 @media (max-width: 768px) {
   .main_container{
     max-width: 100% !important;
@@ -101,6 +107,10 @@ body{
   padding-bottom: 50px;
 }
 .Skills{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.Projects{
   padding-top: 50px;
   padding-bottom: 50px;
 }

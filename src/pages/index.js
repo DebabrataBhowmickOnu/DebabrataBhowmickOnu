@@ -5,6 +5,7 @@ import Work_company from "@/component/UI/Work_company";
 import Whyme from "@/component/UI/Why_me";
 import Experience from "@/component/UI/Experience";
 import Skills from "@/component/UI/Skills";
+import Projects from "@/component/UI/Projects";
 
 const HomePage = (props) => {
   return (
@@ -21,6 +22,9 @@ const HomePage = (props) => {
       </div>
       <div className="Skills">
         <Skills/>
+      </div>
+      <div className="Projects">
+        <Projects/>
       </div>
     </div>
   )
