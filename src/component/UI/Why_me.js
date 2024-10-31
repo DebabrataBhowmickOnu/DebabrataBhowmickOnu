@@ -8,7 +8,7 @@ const Whyme = (props) => {
             <div className={styles.Whyme_content}>
                 <h2>Why me?</h2>
                 <p className={styles.frist_content}>Hi There! I am Debabrata Onu</p>
-                <p>A Freelance Full Stack Web Developer with more than 4 Years of experience. I thoughtfully craft brand-focused design expertly build responsive and well-functional websites with great user experiences. Check out my latest projects! Let's chat and drive more conversions together!
+                <p>A Freelance Full Stack Web Developer with more than 4 Years of experience. I thoughtfully craft brand-focused design expertly build responsive and well-functional websites with great user experiences. Check out my latest projects! Lets chat and drive more conversions together!
                 </p>
 
             </div>
