@@ -6,26 +6,14 @@ import Whyme from "@/component/UI/Why_me";
 import Experience from "@/component/UI/Experience";
 import Skills from "@/component/UI/Skills";
 import Projects from "@/component/UI/Projects";
-// import Testimonial from "@/component/UI/Testimonial";
 import BookCall from "@/component/UI/Book_call";
 import SocialMedia from "@/component/UI/SocialMedia";
-
-// Dynamically import Work_company with SSR disabled
-const Work_company = dynamic(() => import('@/component/UI/Work_company'), {
-    ssr: false, // Disable server-side rendering for this component
-});
-
-const Testimonial = dynamic(() => import('@/component/UI/Testimonial'), {
-  ssr: false,
-});
 
 const HomePage = () => {
   return (
     <div>
       <Banner />
-      <div className="Work_company content-container">
-        <Work_company />
-      </div>
+      
       <div className="why_me content-container">
         <Whyme />
       </div>
@@ -38,9 +26,7 @@ const HomePage = () => {
       <div className="Projects content-container">
         <Projects />
       </div>
-      <div className="Projects content-container">
-        <Testimonial />
-      </div>
+     
       <div className="BookCall content-container">
         <BookCall />
       </div>
