@@ -1,17 +1,25 @@
-import React from "react"
+import dynamic from 'next/dynamic';
+import React from "react";
 import RootLayout from "../component/Layout/RootLayout";
 import Banner from "@/component/UI/Banner";
-import Work_company from "@/component/UI/Work_company";
 import Whyme from "@/component/UI/Why_me";
 import Experience from "@/component/UI/Experience";
 import Skills from "@/component/UI/Skills";
 import Projects from "@/component/UI/Projects";
-import Testimonial from "@/component/UI/Testimonial";
+// import Testimonial from "@/component/UI/Testimonial";
 import BookCall from "@/component/UI/Book_call";
 import SocialMedia from "@/component/UI/SocialMedia";
 
+// Dynamically import Work_company with SSR disabled
+const Work_company = dynamic(() => import('@/component/UI/Work_company'), {
+    ssr: false, // Disable server-side rendering for this component
+});
 
-const HomePage = (props) => {
+const Testimonial = dynamic(() => import('@/component/UI/Testimonial'), {
+  ssr: false,
+});
+
+const HomePage = () => {
   return (
     <div>
       <Banner />
@@ -19,25 +27,25 @@ const HomePage = (props) => {
         <Work_company />
       </div>
       <div className="why_me content-container">
-        <Whyme/>
+        <Whyme />
       </div>
       <div className="experience content-container">
-        <Experience/>
+        <Experience />
       </div>
       <div className="Skills content-container">
-        <Skills/>
+        <Skills />
       </div>
       <div className="Projects content-container">
-        <Projects/>
+        <Projects />
       </div>
       <div className="Projects content-container">
-        <Testimonial/>
+        <Testimonial />
       </div>
       <div className="BookCall content-container">
-        <BookCall/>
+        <BookCall />
       </div>
       <div className="SocialMedia">
-        <SocialMedia/>
+        <SocialMedia />
       </div>
     </div>
   )
@@ -47,8 +55,6 @@ export default HomePage;
 
 HomePage.getLayout = function getLayout(page) {
   return (
-
     <RootLayout>{page}</RootLayout>
-
-  )
-}
+  );
+};

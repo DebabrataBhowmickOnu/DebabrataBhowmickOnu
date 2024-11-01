@@ -12,7 +12,9 @@
     "next": "15.0.2",
     "react": "19.0.0-rc-02c0e824-20241028",
     "react-calendly": "^4.3.1",
-    "react-dom": "19.0.0-rc-02c0e824-20241028"
+    "react-dom": "19.0.0-rc-02c0e824-20241028",
+    "tiny-slider": "^2.9.4",
+    "tiny-slider-react": "^0.5.7"
   },
   "devDependencies": {
     "eslint": "^8",
