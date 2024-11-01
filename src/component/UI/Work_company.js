@@ -42,7 +42,7 @@ const Work_company = () => {
         });
 
         return () => {
-            slider.destroy(); // Cleanup on unmount
+            slider.destroy();
         };
     }, []);
 

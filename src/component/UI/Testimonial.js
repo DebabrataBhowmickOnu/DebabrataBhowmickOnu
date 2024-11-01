@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import styles from "@/styles/Testimonial.module.css";
 import project from '../../assets/images/icon_image.png';
 import Image from "next/image";
-import { tns } from "tiny-slider"; // Import Tiny Slider
-import 'tiny-slider/dist/tiny-slider.css'; // Import Tiny Slider CSS
+import { tns } from "tiny-slider"; 
+import 'tiny-slider/dist/tiny-slider.css'; 
 
 const Testimonial = () => {
     useEffect(() => {
@@ -38,7 +38,6 @@ const Testimonial = () => {
         });
 
         return () => {
-            // Cleanup function to destroy the slider on unmount
             slider.destroy();
         };
     }, []);
@@ -63,7 +62,6 @@ const Testimonial = () => {
                     <p>Aaronn was fantastic to work with from start to finish. We were looking for a </p>
                     <h3>-Michael Brown</h3>
                 </div>
-                {/* Repeat for additional testimonials */}
                 <div>
                     <p>Aaronn was fantastic to work with from start to finish...</p>
                     <h3>-Michael Brown</h3>

@@ -6,13 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+     "postinstall": "npm install --legacy-peer-deps"
   },
   "dependencies": {
     "next": "15.0.2",
-    "react": "19.0.0-rc-02c0e824-20241028",
+    "react": "^18.3.1",
     "react-calendly": "^4.3.1",
-    "react-dom": "19.0.0-rc-02c0e824-20241028",
+    "react-dom": "^18.3.1",
     "tiny-slider": "^2.9.4",
     "tiny-slider-react": "^0.5.7"
   },
