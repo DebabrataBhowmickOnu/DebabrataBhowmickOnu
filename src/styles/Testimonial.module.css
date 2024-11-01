@@ -71,3 +71,16 @@
 }
 
 
+@media screen and (max-width:767px) {
+    .Testimonial_container h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .dot_pagination {
+        display: flex;
+        justify-content: start;
+        margin-top: 25px;
+        align-items: center;
+    }
+}

@@ -13,7 +13,7 @@ const Whyme = () => {
                     A Freelance Full Stack Web Developer with more than 4 Years of experience. I thoughtfully craft brand-focused design, expertly build responsive and well-functional websites with great user experiences. Check out my latest projects! Let&apos;s chat and drive more conversions together!
                 </p>
             </div>
-            <div>
+            <div className={styles.image_container}>
                 <Image
                     src={whyme}
                     width={267}

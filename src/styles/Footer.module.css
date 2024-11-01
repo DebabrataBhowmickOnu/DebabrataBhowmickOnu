@@ -1,0 +1,131 @@
+.footer_container{
+    border-top: 1px solid rgba(255, 255, 255, 1);
+    padding-bottom: 20px;
+}
+.footer_contain{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.footer_contain p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+.call span{
+    color: rgba(146, 146, 157, 1);
+    padding-right: 15px;
+}
+.call p{
+    padding-left: 36px;
+    position: relative;
+}
+.call p::before{
+    content: url('../assets/images/call.png');
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.address{
+   text-align: center;
+}
+.address span{
+    color: rgba(146, 146, 157, 1);
+    padding-right: 15px;
+    position: relative;
+}
+.address span::before{
+    content: url('../assets/images/address.png');
+    position: absolute;
+    left: -35px;
+    top: -5px;
+}
+.email{
+ text-align: end;
+}
+.email span{
+    color: rgba(146, 146, 157, 1);
+    padding-right: 15px;
+}
+.email p{
+    padding-left: 30px;
+    position: relative;
+}
+.email p::before{
+    content: url('../assets/images/email.png');
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+.social_logo_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.social_icon_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+.social_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+.social_icon a{
+    margin-left: 20px;
+}
+.social_icon_container h3{
+    font-size: 18px;
+    line-height: 31px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+.Terms{
+    font-size: 16px;
+    line-height: 31px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width:767px) {
+.social_logo_container{
+    display: none;
+}
+.footer_contain{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.address{
+    text-align: left;
+ }
+ .email{
+    text-align: left;
+ }
+ .footer_contain p{
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 500;
+}
+.address span{
+    color: rgba(146, 146, 157, 1);
+    padding-right: 15px;
+    padding-left: 36px;
+    position: relative;
+}
+.address span::before{
+   
+    position: absolute;
+    left: 0px;
+    top: -5px;
+}
+
+}

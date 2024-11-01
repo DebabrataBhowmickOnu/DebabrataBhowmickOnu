@@ -8,32 +8,36 @@ import Skills from "@/component/UI/Skills";
 import Projects from "@/component/UI/Projects";
 import Testimonial from "@/component/UI/Testimonial";
 import BookCall from "@/component/UI/Book_call";
+import SocialMedia from "@/component/UI/SocialMedia";
 
 
 const HomePage = (props) => {
   return (
     <div>
       <Banner />
-      <div className="Work_company">
+      <div className="Work_company content-container">
         <Work_company />
       </div>
-      <div className="why_me">
+      <div className="why_me content-container">
         <Whyme/>
       </div>
-      <div className="experience">
+      <div className="experience content-container">
         <Experience/>
       </div>
-      <div className="Skills">
+      <div className="Skills content-container">
         <Skills/>
       </div>
-      <div className="Projects">
+      <div className="Projects content-container">
         <Projects/>
       </div>
-      <div className="Projects">
+      <div className="Projects content-container">
         <Testimonial/>
       </div>
-      <div className="BookCall">
+      <div className="BookCall content-container">
         <BookCall/>
+      </div>
+      <div className="SocialMedia">
+        <SocialMedia/>
       </div>
     </div>
   )

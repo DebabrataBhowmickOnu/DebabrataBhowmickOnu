@@ -1,5 +1,6 @@
 import React from "react"
 import Navbar from "../UI/Navbar";
+import Footer from "../UI/Footer";
 
 const RootLayout = ({children}) => {
     return (
@@ -15,7 +16,7 @@ const RootLayout = ({children}) => {
 
 
             <footer>
-                <p>&copy; 2024 YourTemplate. All Rights Reserved.</p>
+               <Footer/>
             </footer>
         </div>
     )

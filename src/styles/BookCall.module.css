@@ -16,3 +16,45 @@
 .bookCall_contain span{
     color: rgba(10, 232, 94, 1);
 }
+.contact_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.contact_container h3{
+    font-size: 36px;
+    line-height: 31px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+.contact_container p{
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 20px;
+    padding-left: 50px;
+    position: relative;
+}
+.contact_container p::after{
+    content: url('../assets/images/time.png');
+    position: absolute;
+    left: 0;
+    top: -1px;
+}
+@media screen and (max-width:767px) {
+    .bookCall_contain h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .contact_container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 30px;
+        margin-top: 30px;
+       
+    }
+    .contact_container h3{
+        font-size: 30px;
+    }
+}

@@ -64,4 +64,8 @@
         gap: 30px;
         padding-top: 50px;
     }
+    .skills_container h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
 }

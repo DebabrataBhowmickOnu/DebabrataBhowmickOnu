@@ -16,14 +16,6 @@
 html {
   scroll-behavior: smooth;
 }
-body{
-  background: #1C1C21;
-  font-family: 'Sarpanch', 'Arial', sans-serif;
-}
-.main_container{
-  max-width: 1430px;
-  margin: auto;
-}
 
 @font-face {
   font-family: 'Sarpanch';
@@ -66,6 +58,15 @@ body{
   font-weight: 900;
   font-style: normal;
 }
+body{
+  background: #1C1C21;
+  font-family: 'Sarpanch', 'Arial', sans-serif;
+}
+.main_container{
+ padding-left: 12%;
+ padding-right: 12%;
+}
+
 .Work_company{
   padding-top: 150px;
   padding-bottom: 138px;
@@ -88,14 +89,17 @@ body{
 }
 .BookCall{
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
-@media screen and (max-width:1500px) {
+.SocialMedia{
+  position: relative;
+}
+/* @media screen and (max-width:1500px) {
   .main_container{
     max-width: 100%;
     padding: 0 50px;
   }
-}
+} */
 @media (max-width: 768px) {
   .main_container{
     max-width: 100% !important;
